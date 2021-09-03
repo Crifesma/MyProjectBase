@@ -1,0 +1,40 @@
+.movies__container {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0 auto;
+	width: 100%;
+	padding-top: 5px;
+	justify-content: space-around;
+	color: #ddd;
+}
+
+.header {
+	background-color: #282c34;
+	min-height: calc(10px + 2vmin);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	color: white;
+}
+
+.search {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.search .text {
+	height: calc(10px + 3vmin);
+	font-size: calc(10px + 2vmin);
+	margin: 1em 0 0 2em;
+}
+
+.search .button {
+	height: calc(10px + 3.6vmin);
+	font-size: calc(10px + 2vmin);
+	margin: 1em 2em 0 0;
+}
+
+.check__box {
+	margin: 0 0 1em 0;
+}
